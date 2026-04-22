@@ -1,16 +1,39 @@
-## Hi there 👋
+🚀 Features
 
-<!--
-**bismah195/bismah195** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🧾 Account Management:
+Create new bank accounts with CNIC validation
+Unique account number generation
+Secure password setup with validation rules
+Delete account (only if no loan is pending)
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💰 Transactions:
+Check account balance
+Deposit money
+Withdraw money with balance validation
+Transfer funds between accounts
+
+
+🔐 Security:
+Password authentication for every sensitive operation
+Maximum 3 login attempts
+Strong password validation:
+Minimum 8 characters
+Uppercase, lowercase, digit, and special character required
+
+
+🏦 Loan System:
+Multiple loan types:-
+Personal Loan
+Home Loan
+Business Loan
+Loan eligibility based on account balance
+Interest calculation
+Loan repayment system
+
+
+🛠 Technologies Used:
+C Programming Language
+File Handling (Persistent Storage)
+Structures & Modular Functions
+Input Validation & Error Handling
